@@ -11,7 +11,7 @@ header .header {
     align-items: center;
     justify-content: space-between;
     background: #14283e;
-    padding: 4px 15px;
+    padding: 4px 12%;
 }
 
 header .header .left {
@@ -69,7 +69,7 @@ header .header .right p {
 
 /* ###### navbar ###### */
 nav {
-    padding: 10px 15px;
+    padding: 10px 12%;
 }
 
 nav .gadgetbd a {
@@ -127,7 +127,7 @@ nav ul li .offer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 15px;
+    padding: 100px 12%;
 }
 
 .hero-section h6 {
@@ -181,7 +181,7 @@ nav ul li .offer {
 
 /* ###### shop ###### */
 .shop {
-    padding: 60px 15px;
+    padding: 60px 12%;
     text-align: center;
     background: #f6f7f9;
 }
@@ -194,7 +194,7 @@ nav ul li .offer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
-    padding-top: 40px;
+    padding: 30px 0 18px;
 }
 
 .shop .shop-box div {
@@ -224,7 +224,7 @@ nav ul li .offer {
 
 /* ###### sale ###### */
 .sale {
-    padding: 50px 15px;
+    padding: 50px 12%;
     background: #f5eff1;
 }
 
@@ -246,7 +246,7 @@ nav ul li .offer {
 .sale .sale-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 40px;
+    padding: 40px 0 22px;
     gap: 15px;
     text-align: center;
 }
@@ -320,9 +320,9 @@ nav ul li .offer {
 
 /* ###### prodects ###### */
 .products {
-    padding: 50px 15px;
+    padding: 50px 12%;
     background: #f6f7f9;
-    border-bottom: 1px solid rgb(180, 180, 180);
+
 }
 
 .products h2 {
@@ -364,39 +364,47 @@ nav ul li .offer {
     border-radius: 10px;
     text-align: left;
 }
-.products .products-main-container .products-sub-container .products-box .icon p{
+
+.products .products-main-container .products-sub-container .products-box .icon p {
     display: flex;
     align-items: center;
     font-size: 12px;
     padding: 7px 0;
 }
-.products .products-main-container .products-sub-container .products-box .icon{
+
+.products .products-main-container .products-sub-container .products-box .icon {
     display: flex;
     align-items: center;
 }
-.products .products-main-container .products-sub-container .products-box .icon p .star{
+
+.products .products-main-container .products-sub-container .products-box .icon p .star {
     color: #fbbf24;
     font-size: 18px;
     margin-right: 5px;
 }
-.products .products-main-container .products-sub-container .products-box .icon p span{
+
+.products .products-main-container .products-sub-container .products-box .icon p span {
     margin-left: 4px;
     color: #464646;
 }
-.products .products-main-container .products-sub-container .products-box h5{
+
+.products .products-main-container .products-sub-container .products-box h5 {
     font-size: 13px;
     padding-top: 10px;
 }
-.products .products-main-container .products-sub-container .products-box h3 span{
+
+.products .products-main-container .products-sub-container .products-box h3 span {
     font-size: 13px;
     margin-left: 3px;
     color: #555555;
 }
-.products .products-main-container .products-sub-container .products-box h3{
+
+.products .products-main-container .products-sub-container .products-box h3 {
     padding-bottom: 10px;
 }
-.products .products-main-container .products-sub-container .products-box button{
-    padding: 10px 106px;
+
+.products .products-main-container .products-sub-container .products-box button {
+    padding: 10px 38%;
     margin-bottom: 10px;
     background: #0f1f3d;
     border: none;
@@ -404,116 +412,146 @@ nav ul li .offer {
     color: white;
     font-weight: bold;
 }
-.products .products-main-container .products-sub-container .products-box{
+
+.products .products-main-container .products-sub-container .products-box {
     margin: 0 13px;
 }
-.products .products-main-container{
+
+.products .products-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
+
 /* ###### delivary ###### */
-.delivary{
-    padding: 40px 15px;
-    display: flex;
-    justify-content: space-between;
+.delivary {
+    padding: 0px 12%;
     background: #f6f7f9;
 }
-.delivary .icon{
+
+.delivary .delivary-container {
+    border-top: 1px solid rgb(180, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding: 40px 0;
+}
+
+.delivary .icon {
     display: flex;
     align-items: center;
     gap: 15px;
     font-size: 14px;
 }
-.delivary .icon span{
+
+.delivary .icon span {
     color: #14b8aa;
     background: #dff0f1;
     padding: 12px;
     border-radius: 50%;
 }
-.delivary .icon div h4{
+
+.delivary .icon div h4 {
     font-size: 14px;
 }
-.delivary .icon div p{
+
+.delivary .icon div p {
     color: #616161;
     font-size: 12px;
 }
+
 /* ###### footer ###### */
-footer{
+footer {
     background: #162c43;
-    padding: 50px 0;
+    padding: 50px 12%;
 }
-footer .footer-menu{
+
+footer .footer-menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-bottom: 1px solid #304858;
-    padding: 0 15px 40px 15px;
-    
+    padding-bottom: 12px;
+    gap: 180px;
 }
-footer .footer-menu h3{
+
+footer .footer-menu h3 {
     color: white;
 }
-footer .footer-menu ul{
+
+footer .footer-menu ul {
     list-style-type: none;
 }
-footer .footer-menu ul a{
+
+footer .footer-menu ul a {
     text-decoration: none;
     color: #bebebe;
     font-size: 14px;
 }
-footer .footer-menu .gadget p{
+
+footer .footer-menu .gadget p {
     font-size: 13px;
     padding-top: 15px;
     line-height: 22px;
     color: #bebebe;
 }
-footer .footer-menu .gadget h3 span{
+
+footer .footer-menu .gadget h3 span {
     color: #14b8aa;
 }
-footer .footer-menu .quick-links ul li a{
+
+footer .footer-menu .quick-links ul li a {
     line-height: 25px;
 }
-footer .footer-menu .quick-links ul{
+
+footer .footer-menu .quick-links ul {
     padding-top: 15px;
 }
-footer .footer-menu .customars-services ul{
+
+footer .footer-menu .customars-services ul {
     padding-top: 15px;
 }
-footer .footer-menu .customars-services ul li a{
+
+footer .footer-menu .customars-services ul li a {
     line-height: 25px;
 }
-footer .footer-menu .contact div{
+
+footer .footer-menu .contact div {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-top: 15px;
 }
-footer .footer-menu .contact div p{
+
+footer .footer-menu .contact div p {
     font-size: 14px;
     color: #bebebe;
 }
-footer .footer-menu .contact div span{
+
+footer .footer-menu .contact div span {
     color: #bebebe;
 }
-footer .down ul{
+
+footer .down ul {
     display: flex;
     align-items: center;
     gap: 30px;
     list-style-type: none;
 }
-footer .down ul li a{
+
+footer .down ul li a {
     text-decoration: none;
     color: #bebebe;
     font-size: 12px;
 }
-footer .down p{
+
+footer .down p {
     color: #bebebe;
     font-size: 13px;
 }
-footer .down{
+
+footer .down {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
